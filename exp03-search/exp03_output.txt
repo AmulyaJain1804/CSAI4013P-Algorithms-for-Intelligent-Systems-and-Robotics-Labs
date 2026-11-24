@@ -1,0 +1,4 @@
+[exp03-search] Run by Amulya Jain (SAP ID 5001XXXXX) | 2026-11-23 19:23:16 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.15 | seed 11
+BFS: 486 cells expanded, path 76 steps, max frontier 15, valid = True
+DFS: 91 cells expanded, path 84 steps, max frontier 12, valid = True
+maze 25 x 41, open cells 499

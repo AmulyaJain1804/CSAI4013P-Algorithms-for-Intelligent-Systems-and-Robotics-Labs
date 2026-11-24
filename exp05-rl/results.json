@@ -1,0 +1,41 @@
+{
+  "grid": [
+    5,
+    7
+  ],
+  "alpha": 0.5,
+  "gamma": 0.95,
+  "episodes": 800,
+  "seed": 11,
+  "results": {
+    "0.01": {
+      "mean_last100": 9.091999999999999,
+      "greedy_steps": 10,
+      "greedy_reaches_goal": true
+    },
+    "0.1": {
+      "mean_last100": 8.972999999999999,
+      "greedy_steps": 10,
+      "greedy_reaches_goal": true
+    },
+    "0.2": {
+      "mean_last100": 7.694,
+      "greedy_steps": 10,
+      "greedy_reaches_goal": true
+    },
+    "0.5": {
+      "mean_last100": 6.998000000000001,
+      "greedy_steps": 10,
+      "greedy_reaches_goal": true
+    }
+  },
+  "optimal_steps": 10,
+  "policy_grid": [
+    "> > > > > > G",
+    "> ^ # ^ # ^ ^",
+    "> ^ # ^ # ^ T",
+    "> ^ # ^ < ^ >",
+    "^ > > ^ v > <"
+  ],
+  "best_eps": 0.1
+}

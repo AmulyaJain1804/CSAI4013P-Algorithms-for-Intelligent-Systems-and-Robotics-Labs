@@ -1,0 +1,13 @@
+[exp01-signals] Run by Amulya Jain (SAP ID 5001XXXXX) | 2026-11-23 19:23:07 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.15 | seed 11
+N = 1000 df = 0.5 Hz, Nyquist = 250.0 Hz
+  set 5 Hz / 1.00  ->  measured 5.0 Hz / 1.004
+  set 20 Hz / 0.50  ->  measured 20.0 Hz / 0.508
+  set 50 Hz / 0.25  ->  measured 50.0 Hz / 0.261
+Leakage (T=1.7 s, df=0.588 Hz): [(4.71, 0.656), (20.0, 0.5), (50.0, 0.25)]
+5 Hz sampled at 8 Hz -> peak at 3.0 Hz
+   5 deg: T_zc = 2.007 s, T_spec = 2.000 s, ratio = 1.00
+  45 deg: T_zc = 2.086 s, T_spec = 2.069 s, ratio = 1.04
+  95 deg: T_zc = 2.417 s, T_spec = 2.400 s, ratio = 1.21
+ 135 deg: T_zc = 3.065 s, T_spec = 3.000 s, ratio = 1.53
+ 175 deg: T_zc = 5.773 s, T_spec = 6.000 s, ratio = 2.88
+T0 = 2.0061 s; results saved to results.json

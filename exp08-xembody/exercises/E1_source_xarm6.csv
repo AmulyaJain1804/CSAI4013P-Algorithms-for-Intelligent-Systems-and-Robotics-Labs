@@ -1,0 +1,13 @@
+robot,policy,trained_on,n,success_rate,mean_steps,median_error_cm
+kuka_iiwa,expert,xarm6,20,1.0,50.55,0.14272937500666313
+kuka_iiwa,BC-agnostic,xarm6,20,0.9,57.111111111111114,3.495513079894093
+kuka_iiwa,BC-proprio,xarm6,20,0.0,nan,31.593371173766677
+franka_panda,expert,xarm6,20,1.0,46.85,0.16001133663616887
+franka_panda,BC-agnostic,xarm6,20,0.95,50.0,0.9346910992985316
+franka_panda,BC-proprio,xarm6,20,0.0,nan,31.593371173766677
+xarm6,expert,xarm6,20,1.0,45.1,0.2564130861203333
+xarm6,BC-agnostic,xarm6,20,1.0,46.8,0.23543444128934768
+xarm6,BC-proprio,xarm6,20,1.0,50.5,0.2516142971583231
+kuka_mini,expert,xarm6,20,0.25,44.8,3.8424209500264053
+kuka_mini,BC-agnostic,xarm6,20,0.35,48.57142857142857,3.5926811811643726
+kuka_mini,BC-proprio,xarm6,20,0.0,nan,31.593371173766677

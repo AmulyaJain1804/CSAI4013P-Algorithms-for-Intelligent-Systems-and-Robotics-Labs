@@ -1,0 +1,17 @@
+{
+  "H": 25,
+  "W": 41,
+  "open_cells": 499,
+  "bfs": {
+    "expanded": 486,
+    "path_steps": 76,
+    "valid": true,
+    "max_frontier": 15
+  },
+  "dfs": {
+    "expanded": 91,
+    "path_steps": 84,
+    "valid": true,
+    "max_frontier": 12
+  }
+}

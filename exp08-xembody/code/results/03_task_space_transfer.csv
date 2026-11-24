@@ -1,0 +1,5 @@
+robot,n,success_rate,mean_steps,median_error_cm
+kuka_iiwa,20,1.0,51.7,0.14983651946675022
+franka_panda,20,1.0,47.8,0.13604461001233337
+xarm6,20,1.0,46.55,0.25898872733586875
+kuka_mini,20,0.25,46.6,4.1914309235034235

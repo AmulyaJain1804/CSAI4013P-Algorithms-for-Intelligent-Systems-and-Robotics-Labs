@@ -1,0 +1,12 @@
+swarm --seconds 120 --name swarm_default_r1	coverage: 80%
+swarm --seconds 120 --set cruise=0.9 --name swarm_cruise-0.9_r1	coverage: 86%
+swarm --seconds 120 --set cruise=0.2 --name swarm_cruise-0.2_r1	coverage: 56%
+swarm --seconds 120 --name swarm_default_r2	coverage: 80%
+swarm --seconds 120 --set cruise=0.9 --name swarm_cruise-0.9_r2	coverage: 86%
+swarm --seconds 120 --set cruise=0.2 --name swarm_cruise-0.2_r2	coverage: 56%
+swarm --seconds 120 --name swarm_default_r3	coverage: 80%
+swarm --seconds 120 --set cruise=0.9 --name swarm_cruise-0.9_r3	coverage: 86%
+swarm --seconds 120 --set cruise=0.2 --name swarm_cruise-0.2_r3	coverage: 56%
+pioneer --seconds 180 --name pioneer_default	coverage: 23%
+pioneer --seconds 180 --set bubble=0.15 --name pioneer_bubble-0.15	coverage: 12%
+pioneer --seconds 180 --set bubble=0.9 --name pioneer_bubble-0.9	

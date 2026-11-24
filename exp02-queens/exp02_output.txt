@@ -1,0 +1,11 @@
+[exp02-queens] Run by Amulya Jain (SAP ID 5001XXXXX) | 2026-11-23 19:23:12 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.15 | seed 11
+  n  solutions     nodes  backtrack s  gen&test s  same?
+  4          2        60       0.0000      0.0000  True
+  5         10       220       0.0001      0.0001  True
+  6          4       894       0.0002      0.0003  True
+  7         40      3584       0.0008      0.0020  True
+  8         92     15720       0.0064      0.0223  True
+  9        352     72378       0.0216      0.2023  True
+ 10        724    348150       0.1208      2.3182  True
+first solution for n = 8 (row of queen in each column): (0, 4, 7, 5, 2, 6, 1, 3)
+CPU: 13th Gen Intel(R) Core(TM) i7-1360P

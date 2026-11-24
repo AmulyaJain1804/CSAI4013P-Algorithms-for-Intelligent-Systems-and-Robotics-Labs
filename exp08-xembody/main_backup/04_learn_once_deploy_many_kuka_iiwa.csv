@@ -1,0 +1,13 @@
+robot,policy,trained_on,n,success_rate,mean_steps,median_error_cm
+kuka_iiwa,expert,kuka_iiwa,20,1.0,50.55,0.14272937500666313
+kuka_iiwa,BC-agnostic,kuka_iiwa,20,1.0,51.4,0.1791692500685513
+kuka_iiwa,BC-proprio,kuka_iiwa,20,1.0,51.2,0.3457555643391748
+franka_panda,expert,kuka_iiwa,20,1.0,46.85,0.16001133663616887
+franka_panda,BC-agnostic,kuka_iiwa,20,1.0,50.8,0.7233803398385736
+franka_panda,BC-proprio,kuka_iiwa,20,0.0,nan,33.46370849813791
+xarm6,expert,kuka_iiwa,20,1.0,45.1,0.2564130861203333
+xarm6,BC-agnostic,kuka_iiwa,20,1.0,50.7,0.7031422239793769
+xarm6,BC-proprio,kuka_iiwa,20,0.0,nan,31.593371173766677
+kuka_mini,expert,kuka_iiwa,20,0.25,44.8,3.8424209500264053
+kuka_mini,BC-agnostic,kuka_iiwa,20,0.3,53.166666666666664,3.8353645752620236
+kuka_mini,BC-proprio,kuka_iiwa,20,0.0,nan,31.599144429209147

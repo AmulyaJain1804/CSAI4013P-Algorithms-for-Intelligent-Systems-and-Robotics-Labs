@@ -1,0 +1,37 @@
+pybullet build time: Nov 21 2026 21:40:03
+[exp08-xembody/04_learn_once_deploy_many.py] Run by Amulya Jain (SAP ID 5001XXXXX) | 2026-11-23 19:34:05 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.18 | seed 11
+Collecting 60 noisy-expert demonstrations on xarm6 ...
+  demos on xarm6        : 60 episodes, expert success 60/60
+  3514 (observation, action) pairs in 4 s
+  trained BC-agnostic on 14 features in 14 s
+  trained BC-proprio  on 21 features in 5 s
+  kuka_iiwa     expert       success 1.00
+  kuka_iiwa     BC-agnostic  success 0.90
+  kuka_iiwa     BC-proprio   success 0.00
+  franka_panda  expert       success 1.00
+  franka_panda  BC-agnostic  success 0.95
+  franka_panda  BC-proprio   success 0.00
+  xarm6         expert       success 1.00
+  xarm6         BC-agnostic  success 1.00
+  xarm6         BC-proprio   success 1.00
+  kuka_mini     expert       success 0.25
+  kuka_mini     BC-agnostic  success 0.35
+  kuka_mini     BC-proprio   success 0.00
+
+Learn on xarm6, deploy everywhere (20 episodes each)
+robot         policy       success_rate  mean_steps  median_error_cm
+------------  -----------  ------------  ----------  ---------------
+kuka_iiwa     expert       1.000         50.5        0.143          
+kuka_iiwa     BC-agnostic  0.900         57.1        3.496          
+kuka_iiwa     BC-proprio   0.000         nan         31.6           
+franka_panda  expert       1.000         46.9        0.160          
+franka_panda  BC-agnostic  0.950         50.0        0.935          
+franka_panda  BC-proprio   0.000         nan         31.6           
+xarm6         expert       1.000         45.1        0.256          
+xarm6         BC-agnostic  1.000         46.8        0.235          
+xarm6         BC-proprio   1.000         50.5        0.252          
+kuka_mini     expert       0.250         44.8        3.842          
+kuka_mini     BC-agnostic  0.350         48.6        3.593          
+kuka_mini     BC-proprio   0.000         nan         31.6           
+
+Saved results/04_learn_once_deploy_many_xarm6.csv/.png and results/models/
