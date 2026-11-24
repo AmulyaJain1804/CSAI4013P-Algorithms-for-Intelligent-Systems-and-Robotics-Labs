@@ -1,13 +1,13 @@
-# aisr-lab-5001XXXXX (rename the folder/repo to your SAP ID)
+# CSAI4013P Algorithms for Intelligent Systems and Robotics - Lab (Amulya Jain, SAP ID 500122439)
 
 CSAI4014 Algorithms for Intelligent Systems and Robotics - laboratory repository
 
 | | |
 |---|---|
 | Name | Amulya Jain |
-| SAP ID | 5001XXXXX (fill in) |
-| Batch | (fill in) |
-| Partner(s) | (fill in) |
+| SAP ID | 500122439 |
+| Batch | 1 (B.Tech CSE AI & ML B1) |
+| Partner(s) | None (individual report) |
 
 Every script imports `student.py`, which prints my name and a timestamp at the start of each run and
 appends the same line to `run_log.txt`; every figure carries a small "name | timestamp" stamp.

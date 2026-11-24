@@ -1,10 +1,10 @@
 pybullet build time: Nov 21 2026 21:40:03
-[exp08-xembody/04_learn_once_deploy_many.py] Run by Amulya Jain (SAP ID 5001XXXXX) | 2026-11-23 19:34:05 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.18 | seed 11
+[exp08-xembody/04_learn_once_deploy_many.py] Run by Amulya Jain (SAP ID 500122439) | 2026-11-24 14:36:25 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.18 | seed 11
 Collecting 60 noisy-expert demonstrations on xarm6 ...
   demos on xarm6        : 60 episodes, expert success 60/60
-  3514 (observation, action) pairs in 4 s
-  trained BC-agnostic on 14 features in 14 s
-  trained BC-proprio  on 21 features in 5 s
+  3514 (observation, action) pairs in 20 s
+  trained BC-agnostic on 14 features in 35 s
+  trained BC-proprio  on 21 features in 15 s
   kuka_iiwa     expert       success 1.00
   kuka_iiwa     BC-agnostic  success 0.90
   kuka_iiwa     BC-proprio   success 0.00

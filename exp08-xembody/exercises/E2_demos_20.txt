@@ -1,10 +1,10 @@
 pybullet build time: Nov 21 2026 21:40:03
-[exp08-xembody/04_learn_once_deploy_many.py] Run by Amulya Jain (SAP ID 5001XXXXX) | 2026-11-23 19:35:56 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.18 | seed 11
+[exp08-xembody/04_learn_once_deploy_many.py] Run by Amulya Jain (SAP ID 500122439) | 2026-11-24 15:16:41 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.18 | seed 11
 Collecting 20 noisy-expert demonstrations on kuka_iiwa ...
   demos on kuka_iiwa    : 20 episodes, expert success 18/20
-  1692 (observation, action) pairs in 3 s
-  trained BC-agnostic on 14 features in 7 s
-  trained BC-proprio  on 21 features in 6 s
+  1692 (observation, action) pairs in 2 s
+  trained BC-agnostic on 14 features in 3 s
+  trained BC-proprio  on 21 features in 4 s
   kuka_iiwa     expert       success 1.00
   kuka_iiwa     BC-agnostic  success 0.95
   kuka_iiwa     BC-proprio   success 0.85

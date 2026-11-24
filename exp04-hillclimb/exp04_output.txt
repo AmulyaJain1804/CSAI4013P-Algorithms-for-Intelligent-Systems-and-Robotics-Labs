@@ -1,4 +1,4 @@
-[exp04-hillclimb] Run by Amulya Jain (SAP ID 5001XXXXX) | 2026-11-23 19:24:15 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.15 | seed 11
+[exp04-hillclimb] Run by Amulya Jain (SAP ID 500122439) | 2026-11-24 12:54:32 India Standard Time | Windows 10 | 13th Gen Intel(R) Core(TM) i7-1360P | Python 3.11.15 | seed 11
 7 local maxima; global at x = 7.65; 1 of 6 climbs reached it
 plain: 71/500 = 14.2%  (mean steps success 4.1, failure 3.0)
 k =  1: 36/200 =  18.0%   predicted  14.2%
